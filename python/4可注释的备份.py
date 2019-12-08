@@ -13,6 +13,7 @@ if not os.path.exists(target_dir):
     print("sucessful created")
 
 # 文件名 日期
+
 today = target_dir + os.sep + time.strftime('%Y%m%d')
 now = time.strftime('%H%M%S')
 target = today + os.sep + now + '.zip'
@@ -31,13 +32,13 @@ if not os.path.exists(today):
 
 
 # 打包成zip格式
-zip_command = 'WinRAR a %s %s' %(target,source)
+rar_command = "WinRAR a %s %s"%(target,source) 
 
 
 # 运行
-print('zip command is ',zip_command)
+print('rar command is ',rar_command)
 print('running')
-if os.system(zip_command) == 0:   
+if os.system(rar_command) == 0:   
     print('sucessful backup to',target)
 else:
     print('backup failed')

@@ -42,6 +42,7 @@ mount.die()
 
 person.total()
 
+person.__doc__
 
 
 
