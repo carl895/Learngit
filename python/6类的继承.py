@@ -3,7 +3,7 @@ class personmessage:
     '''记录信息   职业'''
     def __init__(self,name,age,phonenumber):
         self.name = name
-        self.age = age
+        self.age  = age
         self.phonenumber =phonenumber
         print('name',self.name)
 
