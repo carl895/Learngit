@@ -16,7 +16,7 @@ if not os.path.exists(target_dir):
 
 today = target_dir + os.sep + time.strftime('%Y%m%d')
 now = time.strftime('%H%M%S')
-target = today + os.sep + now + '.zip'
+
 
 # 文件名注释
 comment = input('enter command-->')

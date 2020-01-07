@@ -9,5 +9,5 @@ def func(x):
     print("Changed local x to",x)
 
 func(x)
-# 同2
+# 同x=50
 print("'Value of x is",x)
