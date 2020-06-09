@@ -8,8 +8,10 @@ class Dog(object):
         return self.__name
     @name.setter
     def name(self,new_name):
-        self.__name = new_name
+        self.__name = new_name # 可以新起名字
 wangwang = Dog('wangwang','cute_type')
+# 新名字
+wangwang.name = wangwang2.0
 
 Dname = wangwang.name
 print(Dname)

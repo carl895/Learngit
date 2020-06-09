@@ -6,7 +6,7 @@ def is_duplicated(lst):
     return False
 a = [5,6,8,7,9,1,2]
 print(is_duplicated(a))
-# 以上方法实现不简洁，借助 set 判断更方便：  ???
+# 以上方法实现不简洁，借助 set 判断更方便：  
 #def is_duplicated(lst):
 #    return len(lst) != len(set(lst))
 

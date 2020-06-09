@@ -3,7 +3,7 @@ def mode(lst):
     if lst is None or len(lst)==0:
         return None
     max_freq_elem = max(lst,key= lambda v: lst.count(v))
-    max_freq = lst.count(max_freq_elem)
+    max_freq = lst.count(max_freq_elem)#括号中相当于v
     ret = []
     for i in lst:
         if i not in ret and lst.count(i)==max_freq:

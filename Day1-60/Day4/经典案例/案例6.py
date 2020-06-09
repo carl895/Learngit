@@ -1,4 +1,4 @@
-# 更长列表
+# 更长列表(一者)
 def max_len(*lists):
     return max(*lists, key= lambda v: len(v))
 
